@@ -1,0 +1,14 @@
+server:
+  port: 8888
+
+management.endpoints.web:
+  include: '*'
+  
+spring:
+  application:
+    name: agro-configserver-ms
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/jimmyej/agro-fileserver
