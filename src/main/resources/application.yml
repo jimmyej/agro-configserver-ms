@@ -11,4 +11,9 @@ spring:
     config:
       server:
         git:
+          defaultLabel: master
           uri: https://github.com/jimmyej/agro-fileserver
+  security:
+    user:
+      name: root
+      password: s3cr3t
